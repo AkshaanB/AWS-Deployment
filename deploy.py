@@ -1,6 +1,18 @@
 import argparse
 from typing import Union
 
+
+def create_tar(model_dir: str) -> str:
+    """Create the tar file/s
+
+    Args:
+        model_dir (str): The model directory (default=models/data)
+
+    Returns:
+        str: The response of tar file creation
+    """
+    
+
 def delete_endpoint(region: str) -> str:
     """Method to delete an endpoint
 
